@@ -2,10 +2,11 @@
 
 int main()
 {
-int a = 7;
-int b = 1;
-a = a*b; // a = 7
-b = a/b; // b = 7
-a = b/a; // a = 1 
+int a = 23;
+int b = 32;
+a = a+b; //a = 55
+b = a-b; //b = 23
+a = a-b; //a = 32
+
 cout<<"a = "<<a<<" b = "<<b<<'\n';
 }
